@@ -1,0 +1,66 @@
+<!--Task – 3: Photo Gallery Page 
+ Task Statement: 
+    Create a simple photo gallery page using at least 6 images with the <img> tag. 
+    Use both local file paths and external URLs as image sources. 
+    Every image must include the alt, width, height, and title attributes. 
+    Add a caption below each image using a <p> tag. Demonstrate the effect of missing alt text by leaving one image without it (with a comment explaining why this is bad practice). -->
+        
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Photo Gallery Page</title>
+</head>
+<body>
+
+    <h1>My Photo Gallery</h1>
+
+    <!-- Image 1 (Local Image) -->
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDo-BcTcpgU70ZELhSnR6i4WOpHO6vUnTgdODo_b-HvcLswhISW2c9J3E&s=10" 
+         alt="Beautiful Nature" 
+         width="400" 
+         height="300" 
+         title="Nature Image">
+    <p>Caption: A beautiful view of nature.</p>
+
+    <!-- Image 2 (Local Image) -->
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3EOAVe9wyBezZ4E9HNuk1UMFjngD2juuWYExbYsZ39EGpfg3KmElV8kg&s=10" 
+         alt="Snowy Mountain" 
+         width="400" 
+         height="300" 
+         title="Mountain Image">
+    <p>Caption: A snowy mountain during winter.</p>
+
+    <!-- Image 3 (Local Image) -->
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScYKz2igh0hp1fSg7EdAMS2pl18ucTENwv5Y1mNVKsw31PfCsvj3mrtUxf&s=10" 
+         alt="Colorful Flower" 
+         width="400" 
+         height="300" 
+         title="Flower Image">
+    <p>Caption: Colorful flower blooming in the garden.</p>
+
+    <!-- Image 4 (External URL) -->
+    <img src="https://images.stockcake.com/public/4/3/a/43ad27fe-c15d-476b-ad3a-8d48dfdfc3a5_large/serene-forest-lake-stockcake.jpg"
+         alt="Lake and Trees"
+         width="400"
+         height="300"
+         title="Lake Image">
+    <p>Caption: A peaceful lake surrounded by trees.</p>
+
+    <!-- Image 5 (External URL) -->
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2BnM7-5juTRrbMOEJ0Rfg-jwIg-69mv-PxB5eYMd_IkfugtJqy39G4e4&s=10"
+         alt="City Skyline"
+         width="400"
+         height="300"
+         title="City Image">
+    <p>Caption: Stunning city skyline at night.</p>
+
+    <!-- Image 6 (External URL) -->
+    <!-- Missing alt text is bad practice because screen readers cannot describe the image to visually impaired users. -->
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREcWeQTbrECtkpSV4-4W5I9z6TAgE_nPFfvxjqdLiLXYtZ7TwsuDg9-yA&s=10"
+         width="400"
+         height="300"
+         title="Forest Image">
+    <p>Caption: A Dense green forest.</p>
+
+</body>
+</html>
